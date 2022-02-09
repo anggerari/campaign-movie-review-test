@@ -12,10 +12,10 @@ module.exports = {
         type: Sequelize.STRING
       },
       birthday: {
-        type: Sequelize.DATE
+        type: Sequelize.DATEONLY
       },
       deadday: {
-        type: Sequelize.DATE
+        type: Sequelize.DATEONLY
       },
       rating: {
         type: Sequelize.INTEGER
